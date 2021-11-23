@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta charset = 'utf-8'>
+    <link rel = 'stylesheet' href = "styles.css">
+    <script src = "myscripts.js" defer> </script>
+  </head>
+
+  <body>
+    <div class = "container">
+       <div class = "calculator">
+         <div class = screen>
+        <div class = "operatorDisplay"></div>
+        <div class = "numberDisplay"></div>
+         </div>
+         <button type="button" class = "key" id = "AC" onclick = "clearNum()">AC</button>
+         <button type="button" class = "key" id = "signChange" onclick="changeSign()">+/-</button>
+         <button type="button" class = "key" id = "percentage" onclick = "addPercentage()">%</button>
+         <button type="button" class = "key operatorKey" id = "divide">÷</button>
+        <button type="button" class = "key numberKey" id = "no7">7</button>
+        <button type="button" class = "key numberKey" id = "no8">8</button>
+        <button type="button" class = "key numberKey" id = "no9">9</button>
+        <button type="button" class = "key operatorKey" id = "multiply">x</button>
+        <button type="button" class = "key numberKey" id = "no4">4</button>
+        <button type="button" class = "key numberKey" id = "no5">5</button>
+        <button type="button" class = "key numberKey" id = "no6">6</button>
+        <button type="button" class = "key operatorKey" id = "minus">-</button>
+        <button type="button" class = "key numberKey" id = "no1">1</button>
+        <button type="button" class = "key numberKey" id = "no2">2</button>
+        <button type="button" class = "key numberKey" id = "no3">3</button>
+        <button type="button" class = "key operatorKey" id = "plus">+</button>
+        <button type="button" class = "key numberKey" id = "no0">0</button>
+        <button type="button" class = "key" id = "decimal" onclick ="addDecimal()">.</button>
+        <button type="button" class = "key" id = "equals" onclick ="equate()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
